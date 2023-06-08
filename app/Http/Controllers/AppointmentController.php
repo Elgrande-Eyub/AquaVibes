@@ -24,18 +24,19 @@ class AppointmentController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return response()->json([
-                'message' => $validator->errors()->first()
-            ], 400);
-        }
-
+            return redirect()->route('index')
+            ->withErrors($validator)
+            ->withInput()
+            ->with('scroll', 'contact')
+            ->with('error', $validator->errors()->first());
+            }
 
     $appointment = appointment::create([
         'name' => $request->name,
         'email' => $request->email,
         'phone' => $request->phone,
         'appointment' => $request->appointment,
-        'subject' => $request->subject,
+        'time' => $request->time,
         'message' => $request->message,
 
     ]);

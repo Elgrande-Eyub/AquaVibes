@@ -15,9 +15,11 @@
 <link rel="stylesheet" href="{{ asset('css/shop.css') }}" class="color-switcher-link">
 <script src="{{ asset('assets/js/vendor/modernizr-2.6.2.min.js') }}"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
+<style>
+*{
+    scroll-behavior: smooth;
+}
+</style>
 </head>
 
 <body>
@@ -52,6 +54,14 @@
 											<a href="#index">Home</a>
 
 										</li>
+                                        <li>
+											<a href="#about">About US</a>
+
+										</li>
+                                        <li>
+											<a href="#services">Services</a>
+
+										</li>
 										<li>
 											<a href="#gallery">Gallery</a>
 
@@ -61,21 +71,17 @@
 
 										</li>
 
-										<!-- gallery -->
 
-										<!-- eof Gallery -->
-
-										<!-- contacts -->
 										<li>
 											<a href="#contact" >Contact</a>
 
 										</li>
-										<!-- eof contacts -->
+
 									</ul>
 
 
 								</nav>
-								<!-- eof main nav -->
+
 							</div>
 							<div class="col-xl-2 col-lg-3 text-right d-none d-lg-block">
 								<a class="fs-20 links-maincolor-hover" href="tel:+212777445909"><mark>+212</mark>0777445909</a>
@@ -282,7 +288,10 @@
 					</div>
 				</div>
 			</section>
+<style>
 
+
+</style>
 			<!-- Section Services -->
 			<section id="services" class="ls ms s-py-90 s-py-xl-160">
 				<div class="container-fluid">
@@ -313,100 +322,76 @@
 									<div class="item-media">
 										<img src="images/services/img_4.jpg" alt="img">
 										<div class="media-links">
-											<a class="abs-link" title="" href="service-single.html"></a>
+											<a class="abs-link" title="" href="#price"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<div class="item-content-wrap">
 											<span class="cat-links">
 												<span class="screen-reader-text">Categories</span>
-												<a href="service-single.html" rel="category tag">
+												<a href="#price" rel="category tag">
 													Services
 												</a>
 											</span>
 											<h5 class="mt-1">
-												<a href="service-single.html">Mobile Surf Lessons</a>
+												<a href="#price">Mobile Surf Lessons</a>
 											</h5>
 											<p>
 												Learn to surf in the comfort of your preferred location with our mobile classes.
 											</p>
 										</div>
-										<a href="service-single.html" class="btn-booking">Booking a Lesson</a>
+										<a href="#price" class="btn-booking">Booking a Lesson</a>
 									</div>
 								</div>
-								{{-- <div class="vertical-item service-layout-1 ls">
-									<div class="item-media">
-										<img src="images/services/img_5.jpg" alt="img">
-										<div class="media-links">
-											<a class="abs-link" title="" href="service-single.html"></a>
-										</div>
-									</div>
-									<div class="item-content">
-										<div class="item-content-wrap">
-											<span class="cat-links">
-												<span class="screen-reader-text">Categories</span>
-												<a href="service-single.html" rel="category tag">
-													Services
-												</a>
-											</span>
-											<h5 class="mt-1">
-												<a href="service-single.html">Kiteboarding</a>
-											</h5>
-											<p>
-												From the most experienced kitesurfing teachers to the most
-											</p>
-										</div>
-										<a href="service-single.html" class="btn-booking">Booking a Lesson</a>
-									</div>
-								</div> --}}
+
 								<div class="vertical-item service-layout-1 ls">
 									<div class="item-media">
 										<img src="images/services/img_1.jpg" alt="img">
 										<div class="media-links">
-											<a class="abs-link" title="" href="service-single.html"></a>
+											<a class="abs-link" title="" href="#price"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<div class="item-content-wrap">
 											<span class="cat-links">
 												<span class="screen-reader-text">Categories</span>
-												<a href="service-single.html" rel="category tag">
+												<a href="#price" rel="category tag">
 													Services
 												</a>
 											</span>
 											<h5 class="mt-1">
-												<a href="service-single.html">Private Surf Coaching</a>
+												<a href="#price">Private Surf Coaching</a>
 											</h5>
 											<p>
 												Receive one-on-one attention and personalized coaching to enhance your surfing skills.
 											</p>
 										</div>
-										<a href="service-single.html" class="btn-booking">Booking a Lesson</a>
+										<a href="#price" class="btn-booking">Booking a Lesson</a>
 									</div>
 								</div>
 								<div class="vertical-item service-layout-1 ls">
 									<div class="item-media">
 										<img src="images/services/img_6.jpg" alt="img">
 										<div class="media-links">
-											<a class="abs-link" title="" href="service-single.html"></a>
+											<a class="abs-link" title="" href="#price"></a>
 										</div>
 									</div>
 									<div class="item-content">
 										<div class="item-content-wrap">
 											<span class="cat-links">
 												<span class="screen-reader-text">Categories</span>
-												<a href="service-single.html" rel="category tag">
+												<a href="#price" rel="category tag">
 													Services
 												</a>
 											</span>
 											<h5 class="mt-1">
-												<a href="service-single.html">Surf Excursions</a>
+												<a href="#price">Surf Excursions</a>
 											</h5>
 											<p>
 												Embark on thrilling surf adventures to explore new waves and destinations.
 											</p>
 										</div>
-										<a href="service-single.html" class="btn-booking">Booking a Lesson</a>
+										<a href="#price" class="btn-booking">Booking a Lesson</a>
 									</div>
 								</div>
 
@@ -477,7 +462,7 @@
 						<div class="col-xl-4 col-sm-6" style="position: absolute; left: 50%; top: 536.422px;">
 							<div class="vertical-item item-gallery content-absolute ds">
 								<div class="item-media">
-									<img src="images/gallery/23.jpg" alt="img">
+									<img src="images/gallery/13.jpg" alt="img">
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
@@ -490,7 +475,7 @@
 						<div class="col-xl-4 col-sm-6" style="position: absolute; left: 0%; top: 718.562px;">
 							<div class="vertical-item item-gallery content-absolute  ds">
 								<div class="item-media">
-									<img src="images/gallery/26.jpg" alt="img">
+									<img src="images/gallery/12.jpg" alt="img">
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
@@ -549,12 +534,13 @@
 								<div class="pricing-body hero-bg">
 									<div class="plan-features text-center">
 										<ul class="list-bordered">
-											<li class="enabled">Transfers to Any Place</li>
+											<li class="enabled">Mobile Surf Lessons</li>
                                             <li class="enabled">High-Quality Equipment</li>
 											<li class="enabled">1 Sessions of 2 Hours</li>
-                                            <li class="enabled">Group/Private choice</li>
-                                            <li class="disabled">Video Analyse</li>
+                                            <li class="disabled">Equipment, and Video Analysis</li>
+                                            <li class="disabled">Private sessions choice</li>
                                             <li class="disabled">Explore Many Places</li>
+                                            <li class="disabled">Personalized coaching</li>
 										</ul>
 									</div>
 									<div class="plan-button">
@@ -582,12 +568,13 @@
 								<div class="pricing-body">
 									<div class="plan-features text-center">
 										<ul class="list-bordered">
-											<li class="enabled">Transfers to Any Place</li>
+											<li class="enabled">Mobile Surf Lessons</li>
 											<li class="enabled">High-Quality Equipment</li>
-											<li class="enabled">8 Sessions/Month</li>
-                                            <li class="enabled">Group/Private choice</li>
-                                            <li class="enabled">Video Analyse</li>
+											<li class="enabled">8 Sessions of 2 Hours, per month</li>
+                                            <li class="enabled">Equipment, and Video Analysis</li>
+                                            <li class="disabled">Private sessions choice</li>
                                             <li class="disabled">Explore Many Places</li>
+                                            <li class="disabled">Personalized coaching</li>
 										</ul>
 									</div>
 									<div class="plan-button">
@@ -615,12 +602,13 @@
 								<div class="pricing-body hero-bg">
 									<div class="plan-features text-center">
 										<ul class="list-bordered">
-											<li class="enabled">Transfers to Any Place</li>
+                                            <li class="enabled">Mobile Surf Lessons</li>
 											<li class="enabled">High-Quality Equipment</li>
-											<li class="enabled">12 Sessions/Month</li>
-                                            <li class="enabled">Group/Private choice</li>
-                                            <li class="enabled">Video Analyse</li>
-											<li class="enabled">Explore Many Places</li>
+											<li class="enabled">12 Sessions of 2 Hours/per month</li>
+                                            <li class="enabled">Equipment, and Video Analysis</li>
+                                            <li class="enabled">Private sessions choice</li>
+                                            <li class="enabled">Explore Many Places</li>
+                                            <li class="enabled">Personalized coaching</li>
 										</ul>
 									</div>
 									<div class="plan-button">
@@ -662,9 +650,9 @@
 												AquaVibes made my surfing dreams come true! The instructors were patient, knowledgeable, and made the whole experience unforgettable.
 											</p>
 											<p class="social-icons">
-												<a href="https://www.facebook.com/" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
-												<a href="https://twitter.com/" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
-												<a href="https://www.linkedin.com/" class="fa bg-icon rounded-icon fa-linkedin" title="linkedin"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-linkedin" title="linkedin"></a>
 											</p>
 										</div>
 									</div>
@@ -684,9 +672,9 @@
 												I had an amazing time learning to surf with AquaVibes. The personalized coaching helped me progress quickly and feel confident in the water.
 											</p>
 											<p class="social-icons">
-												<a href="https://www.facebook.com/" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
-												<a href="https://twitter.com/" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
-												<a href="https://www.linkedin.com/" class="fa bg-icon rounded-icon fa-linkedin" title="linkedin"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-linkedin" title="linkedin"></a>
 											</p>
 										</div>
 									</div>
@@ -706,9 +694,9 @@
 												The surf excursions with AquaVibes were incredible. I surfed some of the best waves of my life and made lifelong friends.
 											</p>
 											<p class="social-icons">
-												<a href="https://www.facebook.com/" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
-												<a href="https://twitter.com/" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
-												<a href="https://www.linkedin.com/" class="fa bg-icon rounded-icon fa-linkedin" title="linkedin"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
+												<a href="#" class="fa bg-icon rounded-icon fa-linkedin" title="linkedin"></a>
 											</p>
 										</div>
 									</div>
@@ -770,7 +758,7 @@
 											<div class="form-group has-placeholder">
 												<label for="name">Full Name <span class="required">*</span></label>
 												<i class="fa fa-user color-darkgrey"></i>
-												<input type="text" aria-required="true" size="30" value="" name="name" class="form-control" placeholder="Name">
+												<input type="text" aria-required="true" size="30" value="{{ old('name') }}" name="name" class="form-control" placeholder="Name">
 											</div>
 										</div>
 
@@ -778,7 +766,7 @@
 											<div class="form-group has-placeholder">
 												<label for="email">Email address<span class="required">*</span></label>
 												<i class="fa fa-envelope color-darkgrey"></i>
-												<input type="email" aria-required="true" size="30" value="" name="email" class="form-control" placeholder="Email">
+												<input type="email" aria-required="true" size="30" value="{{ old('email') }}" name="email" class="form-control" placeholder="Email">
 											</div>
 										</div>
 
@@ -787,41 +775,47 @@
 
 									<div class="row">
 
-										<div class="col-sm-6">
+										<div class="col-sm-12">
 											<div class="form-group has-placeholder">
 												<label for="phone">Phone<span class="required">*</span></label>
 												<i class="fa fa-phone color-darkgrey"></i>
-												<input type="text" aria-required="true" size="30" value="" name="phone"  class="form-control" placeholder="Phone">
+												<input type="text" aria-required="true" size="30" value="{{ old('email') }}" name="phone"  class="form-control" placeholder="Phone">
 											</div>
 										</div>
+
+
+									</div>
+
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="form-group has-placeholder">
-												<label for="subject">Subject<span class="required">*</span></label>
+												<label for="appointment">Date<span class="required">*</span></label>
+												<i class="fa fa-calendar-days color-darkgrey"></i>
+												<input type="date" name="appointment"  value="{{ old('appointment') }}" class="form-control" placeholder="Date">
+												</div>
+										</div>
+                                        <div class="col-sm-6">
+											<div class="form-group has-placeholder">
+												<label for="time">time<span class="required">*</span></label>
 												<i class="fa fa-thumb-tack color-darkgrey"></i>
-												<input type="text" aria-required="true" size="30" value="" name="subject"  class="form-control" placeholder="Subject">
+												<input type="time"  name="time" value="{{ old('time') }}"  class="form-control" placeholder="Time">
 											</div>
 										</div>
 
 									</div>
 
-									<div class="row">
-										<div class="col-sm-12">
-											<div class="form-group has-placeholder">
-												<label for="appointment">Subject<span class="required">*</span></label>
-												<i class="fa fa-calendar-days color-darkgrey"></i>
-												<input type="date" name="appointment"  class="form-control" placeholder="Subject">
-												</div>
-										</div>
-										<div class="col-sm-12">
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
 
 											<div class="form-group has-placeholder">
 												<label for="message">Message</label>
 												<i class="fa fa-pencil color-darkgrey"></i>
-												<textarea aria-required="true" rows="6" cols="45" name="message"  class="form-control" placeholder="Message"></textarea>
+												<textarea aria-required="true" rows="6" cols="45" value="{{ old('message') }}" name="message"  class="form-control" placeholder="Message"></textarea>
 											</div>
 										</div>
 
-									</div>
+                                    </div>
 
 									<div class="row">
 
@@ -895,47 +889,29 @@
 								<h3>Userful Link</h3>
 								<ul class="menu">
 									<li class="menu-item">
-										<a href="index_blocks.html">Homeblocks</a>
-									</li>
-									<li class="menu-item">
-										<a href="about.html">About</a>
-									</li>
-									<li class="menu-item">
-										<a href="team.html">Team</a>
-									</li>
-									<li class="menu-item">
-										<a href="contact.html">Contact Us</a>
-									</li>
-									<li class="menu-item">
-										<a href="pricing.html">Pricing</a>
-									</li>
-									<li class="menu-item">
-										<a href="shortcodes_typography.html">Typography</a>
-									</li>
-									<li class="menu-item">
-										<a href="shop-left.html">Shop</a>
-									</li>
-									<li class="menu-item">
-										<a href="services2.html">Services</a>
-									</li>
-									<li class="menu-item">
-										<a href="service-single.html">Single Service</a>
-									</li>
-									<li class="menu-item">
-										<a href="gallery-tiled.html">Gallery</a>
-									</li>
+                                        <a href="#index">Home</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#about">About US</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#services">Services</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#gallery">Gallery</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#price">Prices</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#contact" >Contact</a>
+                                    </li>
 								</ul>
 							</div>
 							<div class="divider-60 divider-lg-0"></div>
 						</div>
 
-						<div class="col-xl-4 col-lg-4 text-center text-lg-left animate" data-animation="fadeInUp">
-							<div class="widget widget_flickr">
 
-								<h3 class="widget-title">Flickr</h3>
-								<ul class="flickr_ul"></ul>
-							</div>
-						</div>
 					</div>
 				</div>
 			</footer>
@@ -957,11 +933,8 @@
 
 	<script src="{{ asset('js/compressed.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
-{{-- <script src="{{ asset('js/switcher.js') }}"></script> --}}
-
 
 </body>
 
 
-<!-- Mirrored from html.modernwebtemplates.com/wavex/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jun 2023 18:43:23 GMT -->
 </html>

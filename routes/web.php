@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AppointmentController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,14 +15,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::fallback(function () {
+    return redirect()->route('index');
 });
 
-
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 })->name('index');
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/appointments', [AppointmentController::class, 'index'])->name('admin');
+});
 
 Route::post('/appointment', [AppointmentController::class,'store'])->name('appointment');
-Route::get('/appointments', [AppointmentController::class, 'index'])->name('index');
+
+
+Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -17,7 +17,7 @@ class appointment extends Model
         'name',
         'email',
         'phone',
-        'subject',
+        'time',
         'appointment',
         'message',
     ];
