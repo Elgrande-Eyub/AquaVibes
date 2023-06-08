@@ -27,6 +27,10 @@ Route::get('/index', function () {
     return view('index');
 });
 
+Route::get('/index/fr', function () {
+    return view('indexFr');
+})->name('indexFr');
+
 Route::middleware(['auth'])->group(function () {
     Route::get('/appointments', [AppointmentController::class, 'index'])->name('admin');
 });

@@ -51,11 +51,11 @@
 								<nav class="top-nav">
 									<ul class="nav sf-menu">
 										<li class="active">
-											<a href="#index">Home</a>
+											<a href="#index">Accueil</a>
 
 										</li>
                                         <li>
-											<a href="#about">About US</a>
+											<a href="#about">Sur-Nous</a>
 
 										</li>
                                         <li>
@@ -63,11 +63,11 @@
 
 										</li>
 										<li>
-											<a href="#gallery">Gallery</a>
+											<a href="#gallery">Galerie</a>
 
 										</li>
                                         <li>
-											<a href="#price">Prices</a>
+											<a href="#price">Tarifs</a>
 
 										</li>
 
@@ -85,7 +85,7 @@
 							</div>
 							<div class="col-xl-2 col-lg-3 text-right d-none d-lg-block">
 								<a class="fs-20 links-maincolor-hover" href="tel:+212777445909"><mark>+212</mark>0777445909</a>
-							    <a href="{{ route('indexFr') }}" style="margin-left:1rem">FR</a>
+							    <a href="{{ route('index') }}" style="margin-left:1rem">EN</a>
                             </div>
 						</div>
 					</div>
@@ -201,24 +201,23 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<p class="text-center text-md-left color-darkgrey mb-1">
-								<span class="line-left">About Us</span>
+								<span class="line-left">À Propos de Nous</span>
 							</p>
 							<h3 class="text-center text-md-left mt-0 mb-2 special-heading color-darkgrey">
-								<span>Unleash Your Inner Surfer with AquaVibes</span>
+								<span>Libérez le Surfeur qui Sommeille en Vous avec AquaVibes</span>
 							</h3>
 							<p class="text-center text-md-left color-darkgrey fs-20 fw-500">
-								<span>Surf Lessons That Come to You</span>
+								<span>Des Leçons de Surf qui Vont à Votre Rencontre</span>
 							</p>
 							<div class="divider-40 divider-xl-50"></div>
 							<div class="border-left-custom">
 								<p>
-									At AquaVibes, we are dedicated to providing you with the ultimate surfing experience. Our expert instructors, top-of-the-line equipment,
-									and mobile classes bring the joy of surfing right to your doorstep. Get ready to ride the waves and create lifelong memories with AquaVibes.</p>
+									Chez AquaVibes, notre passion est de vous offrir une expérience de surf inoubliable. Nos instructeurs expérimentés, notre équipement de pointe et nos lieux de surf extraordinaires vous garantissent des moments magiques dans les vagues. Préparez-vous à chevaucher les vagues et à créer des souvenirs mémorables avec AquaVibes.</p>
 							</div>
 							<div class="divider-40 divider-xl-50"></div>
 							<div class="several-buttons">
-								<a href="#price" class="btn btn-maincolor btn-medium">Book a Lesson</a>
-								<a href="#about" class="btn btn-outline-maincolor btn-medium">Learn More</a>
+								<a href="#price" class="btn btn-maincolor btn-medium">Réserver un Cours</a>
+								<a href="#about" class="btn btn-outline-maincolor btn-medium">Savoir Plus</a>
 							</div>
 							<div class="divider-60 divider-lg-0"></div>
 						</div>
@@ -245,10 +244,10 @@
 								<span class="line-left">Advantages </span>
 							</p>
 							<h3 class="text-center text-md-left mt-0 mb-2 special-heading color-darkgrey">
-								<span>Why Choose AquaVibes?</span>
+								<span>En savoir plus</span>
 							</h3>
 							<p class="text-center text-md-left color-darkgrey fs-20 fw-500">
-								<span>The Benefits of Mobile Surf Classes</span>
+								<span>Les Avantages de Nos Cours de Surf</span>
 							</p>
 							<div class="divider-60 divider-xl-90"></div>
 							<div class="row">
@@ -260,7 +259,7 @@
 										<h3 class="special-heading text-uppercase counter-wrap color-main mt-2 mb-3">
 											<span class="counter" data-from="0" data-to="251" data-speed="1500">0</span>
 										</h3>
-										<p>We bring the waves to you, making learning to surf convenient and accessible.</p>
+										<p>Nous venons directement à vous, rendant l'apprentissage du surf facile et pratique.</p>
 									</div>
 									<div class="divider-30 divider-lg-0"></div>
 								</div>
@@ -272,7 +271,7 @@
 										<h3 class="special-heading text-uppercase counter-wrap color-main mt-2 mb-3">
 											<span class="counter" data-from="0" data-to="72" data-speed="1500">0</span>
 										</h3>
-										<p>Our experienced surf instructors will guide you every step of the way, ensuring a safe and enjoyable experience.</p>
+										<p>Nos instructeurs chevronnés vous guident à chaque étape, assurant une expérience de surf sûre et agréable.</p>
 									</div>
 									<div class="divider-30 divider-lg-0"></div>
 								</div>
@@ -284,7 +283,7 @@
 										<h3 class="special-heading text-uppercase counter-wrap color-main mt-2 mb-3">
 											<span class="counter" data-from="0" data-to="193" data-speed="1500">0</span>
 										</h3>
-										<p>Whether you're a beginner or an advanced surfer, we tailor our lessons to your skill level and goals.</p>
+										<p>Que vous soyez débutant ou surfeur confirmé, nous adaptons nos leçons à votre niveau et à vos objectifs.</p>
 									</div>
 								</div>
 							</div>
@@ -307,10 +306,10 @@
 										<span class="line-left">Services</span>
 									</p>
 									<h3 class="text-center text-lg-left mt-0 mb-2 special-heading color-darkgrey">
-										<span>Our Surfing Services</span>
+										<span>Nos Services de Surf</span>
 									</h3>
 									<p class="text-center text-lg-left color-darkgrey fs-20 fw-500">
-										<span>Choose the Perfect Surfing Experience for You</span>
+										<span>Choisissez l'Aventure de Surf Qui Vous Correspond</span>
 									</p>
 									<div class="divider-35"></div>
 									<div class="owl-custom-nav hidden-below-lg">
@@ -339,13 +338,13 @@
 												</a>
 											</span>
 											<h5 class="mt-1">
-												<a href="#price">Mobile Surf Lessons</a>
+												<a href="#price">Cours de Surf en Groupe </a>
 											</h5>
 											<p>
-												Learn to surf in the comfort of your preferred location with our mobile classes.
+                                                Rejoignez un groupe convivial pour apprendre et améliorer vos compétences en surf.
 											</p>
 										</div>
-										<a href="#price" class="btn-booking">Booking a Lesson</a>
+										<a href="#price" class="btn-booking">Réserver un Cours</a>
 									</div>
 								</div>
 
@@ -366,13 +365,13 @@
 												</a>
 											</span>
 											<h5 class="mt-1">
-												<a href="#price">Private Surf Coaching</a>
+												<a href="#price">Coaching Privé de Surf </a>
 											</h5>
 											<p>
-												Receive one-on-one attention and personalized coaching to enhance your surfing skills.
+												Bénéficiez d'une attention individuelle et d'un coaching personnalisé pour progresser rapidement.
 											</p>
 										</div>
-										<a href="#price" class="btn-booking">Booking a Lesson</a>
+										<a href="#price" class="btn-booking">Réserver un Cours</a>
 									</div>
 								</div>
 								<div class="vertical-item service-layout-1 ls">
@@ -392,13 +391,13 @@
 												</a>
 											</span>
 											<h5 class="mt-1">
-												<a href="#price">Surf Excursions</a>
+												<a href="#price">Excursions de Surf</a>
 											</h5>
 											<p>
-												Embark on thrilling surf adventures to explore new waves and destinations.
+												Plongez dans une aventure de surf excitante avec nos camps de surf conçus pour tous les niveaux.
 											</p>
 										</div>
-										<a href="#price" class="btn-booking">Booking a Lesson</a>
+										<a href="#price" class="btn-booking">Réserver un Cours</a>
 									</div>
 								</div>
 
@@ -417,10 +416,10 @@
 								<span class="line-left">Gallery</span>
 							</p>
 							<h3 class="text-center mt-0 mb-2 special-heading color-darkgrey">
-								<span>Our Photos &amp; Videos</span>
+								<span>Nos Photos &amp; Videos</span>
 							</h3>
 							<p class="text-center color-darkgrey fs-20 fw-500">
-								<span>We want our clients to feel awesome<br> and unique. </span>
+								<span>Des Leçons de Surf qui Vont à Votre Rencontre</span>
 							</p>
 
 							<div class="divider-40 divider-xl-60"></div>
@@ -435,7 +434,7 @@
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
-										<a href="#gallery">Consetetur sadipscing elitr, sed diam nonumy</a>
+										<a href="#gallery"></a>
 									</h5>
 								</div>
 							</div>
@@ -449,7 +448,7 @@
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
-										<a href="#gallery">Consetetur sadipscing elitr, sed diam nonumy</a>
+										<a href="#gallery"></a>
 									</h5>
 								</div>
 							</div>
@@ -463,7 +462,7 @@
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
-										<a href="#gallery">Consetetur sadipscing elitr, sed diam nonumy</a>
+										<a href="#gallery"></a>
 									</h5>
 								</div>
 							</div>
@@ -477,7 +476,7 @@
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
-										<a href="#gallery">Consetetur sadipscing elitr, sed diam nonumy</a>
+										<a href="#gallery"></a>
 									</h5>
 								</div>
 							</div>
@@ -490,7 +489,7 @@
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
-										<a href="#gallery">Consetetur sadipscing elitr, sed diam nonumy</a>
+										<a href="#gallery"></a>
 									</h5>
 								</div>
 							</div>
@@ -503,7 +502,7 @@
 								</div>
 								<div class="item-content dark-bg">
 									<h5>
-										<a href="#gallery">Consetetur sadipscing elitr, sed diam nonumy</a>
+										<a href="#gallery"></a>
 									</h5>
 								</div>
 							</div>
@@ -519,13 +518,13 @@
 					<div class="row">
 						<div class="col-12">
 							<p class="text-center color-darkgrey mb-1">
-								<span class="line-left">Pricing</span>
+								<span class="line-left">Tarifs </span>
 							</p>
 							<h3 class="text-center mt-0 mb-2 special-heading color-darkgrey">
-								<span>Choose Your Surfing Adventure</span>
+								<span>Choisissez Votre Aventure de Surf</span>
 							</h3>
 							<p class="text-center color-darkgrey fs-20 fw-500">
-								<span>Find the Perfect Pack for Your Surfing Journey</span>
+								<span>Découvrez Nos Offres Irrésistibles</span>
 							</p>
 							<div class="divider-60 divider-xl-60"></div>
 						</div>
@@ -538,24 +537,24 @@
 									</div>
 									<div class="plan-name">
 										<h3>
-											Beginner Pack
+											Pack Émeraude
 										</h3>
 									</div>
 								</div>
 								<div class="pricing-body hero-bg">
 									<div class="plan-features text-center">
 										<ul class="list-bordered">
-											<li class="enabled">Mobile Surf Lessons</li>
-                                            <li class="enabled">High-Quality Equipment</li>
-											<li class="enabled">1 Sessions of 2 Hours</li>
-                                            <li class="disabled">Equipment, and Video Analysis</li>
-                                            <li class="disabled">Private sessions choice</li>
-                                            <li class="disabled">Explore Many Places</li>
-                                            <li class="disabled">Personalized coaching</li>
+                                            <li class="enabled">Leçons de surf mobiles</li>
+                                            <li class="enabled">Équipement de haute qualité</li>
+                                            <li class="enabled">1 session de 2 heures</li>
+                                            <li class="disabled">Équipement et analyse vidéo</li>
+                                            <li class="disabled">Choix de séances privées</li>
+                                            <li class="disabled">Explorer de nombreux endroits</li>
+                                            <li class="disabled">Coaching personnalisé</li>
 										</ul>
 									</div>
 									<div class="plan-button">
-										<a href="#contact" class="btn btn-maincolor">Book a Session</a>
+										<a href="#contact" class="btn btn-maincolor">Réserver un Cours</a>
 									</div>
 								</div>
 							</div>
@@ -571,7 +570,7 @@
 									</div>
 									<div class="plan-name">
 										<h3>
-											Advanced Pack
+											Pack Saphir
 										</h3>
 
 									</div>
@@ -579,17 +578,18 @@
 								<div class="pricing-body">
 									<div class="plan-features text-center">
 										<ul class="list-bordered">
-											<li class="enabled">Mobile Surf Lessons</li>
-											<li class="enabled">High-Quality Equipment</li>
-											<li class="enabled">8 Sessions of 2 Hours, per month</li>
-                                            <li class="enabled">Equipment, and Video Analysis</li>
-                                            <li class="disabled">Private sessions choice</li>
-                                            <li class="disabled">Explore Many Places</li>
-                                            <li class="disabled">Personalized coaching</li>
+                                            <li class="enabled">Leçons de surf mobiles</li>
+                                            <li class="enabled">Équipement de haute qualité</li>
+                                            <li class="enabled">8 sessions de 2 heures par mois</li>
+                                            <li class="enabled">Équipement et analyse vidéo</li>
+                                            <li class="disabled">Choix de séances privées</li>
+                                            <li class="disabled">Explorer de nombreux endroits</li>
+                                            <li class="disabled">Coaching personnalisé</li>
+
 										</ul>
 									</div>
 									<div class="plan-button">
-										<a  href="#contact" class="btn btn-maincolor">Book a Session</a>
+										<a  href="#contact" class="btn btn-maincolor">Réserver un Cours</a>
 									</div>
 								</div>
 							</div>
@@ -605,7 +605,7 @@
 									</div>
 									<div class="plan-name">
 										<h3>
-											Ultimate Pack
+											Pack Diamant
 										</h3>
 
 									</div>
@@ -613,17 +613,18 @@
 								<div class="pricing-body hero-bg">
 									<div class="plan-features text-center">
 										<ul class="list-bordered">
-                                            <li class="enabled">Mobile Surf Lessons</li>
-											<li class="enabled">High-Quality Equipment</li>
-											<li class="enabled">12 Sessions of 2 Hours/per month</li>
-                                            <li class="enabled">Equipment, and Video Analysis</li>
-                                            <li class="enabled">Private sessions choice</li>
-                                            <li class="enabled">Explore Many Places</li>
-                                            <li class="enabled">Personalized coaching</li>
+                                            <li class="enabled">Leçons de surf mobiles</li>
+                                            <li class="enabled">Équipement de haute qualité</li>
+                                            <li class="enabled">12 sessions de 2 heures par mois</li>
+                                            <li class="enabled">Équipement et analyse vidéo</li>
+                                            <li class="enabled">Choix de séances privées</li>
+                                            <li class="enabled">Explorer de nombreux endroits</li>
+                                            <li class="enabled">Coaching personnalisé</li>
+
 										</ul>
 									</div>
 									<div class="plan-button">
-										<a href="#contact"  class="btn btn-maincolor">Book a Session</a>
+										<a href="#contact"  class="btn btn-maincolor">Réserver un Cours</a>
 									</div>
 								</div>
 							</div>
@@ -640,13 +641,13 @@
 					<div class="row">
 						<div class="col-12">
 							<p class="text-center color-darkgrey mb-1">
-								<span class="line-left">Testimonials</span>
+								<span class="line-left">Témoignages</span>
 							</p>
 							<h3 class="text-center mt-0 mb-2 special-heading color-darkgrey">
-								<span>What Our Clients Say</span>
+								<span>Les Témoignages de Nos Clients</span>
 							</h3>
 							<p class="text-center color-darkgrey fs-20 fw-500">
-								<span>Hear from Our Satisfied Surfers</span>
+								<span>Écoutez les Surfeurs Satisfaits</span>
 							</p>
 
 							<div class="divider-40 divider-xl-60"></div>
@@ -659,8 +660,7 @@
 										<div class="quote-content ">
 											<h6>Sarah</h6>
 											<p>
-												AquaVibes made my surfing dreams come true! The instructors were patient, knowledgeable, and made the whole experience unforgettable.
-											</p>
+                                                AquaVibes a réalisé mes rêves de surf ! Les instructeurs étaient patients, compétents et ont rendu l'expérience inoubliable.</p>
 											<p class="social-icons">
 												<a href="#" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
 												<a href="#" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
@@ -683,8 +683,7 @@
 										<div class="quote-content ">
 											<h6>Alex</h6>
 											<p>
-												I had an amazing time learning to surf with AquaVibes. The personalized coaching helped me progress quickly and feel confident in the water.
-											</p>
+                                                J'ai passé un moment incroyable à apprendre à surfer avec AquaVibes. Les cours personnalisés m'ont permis de progresser rapidement et de me sentir en confiance dans l'eau.</p>
 											<p class="social-icons">
 												<a href="#" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
 												<a href="#" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
@@ -707,8 +706,7 @@
 										<div class="quote-content ">
 											<h6>Mark</h6>
 											<p>
-												The surf excursions with AquaVibes were incredible. I surfed some of the best waves of my life and made lifelong friends.
-											</p>
+                                                Les excursions de surf avec AquaVibes étaient incroyables. J'ai surfé certaines des meilleures vagues de ma vie et rencontré des personnes extraordinaires. Je recommande vivement !</p>
 											<p class="social-icons">
 												<a href="#" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
 												<a href="#" class="fa bg-icon rounded-icon fa-twitter" title="twitter"></a>
@@ -736,13 +734,13 @@
 					<div class="row">
                         <div class="col-12">
                         <p class="text-center color-darkgrey mb-1">
-                            <span class="line-left">Contact Us</span>
+                            <span class="line-left">Contactez-nous</span>
                         </p>
                         <h3 class="text-center mt-0 mb-2 special-heading color-darkgrey">
-                            <span>Get in Touch</span>
+                            <span>Prenez Contact</span>
                         </h3>
                         <p class="text-center color-darkgrey fs-20 fw-500">
-                            <span>Reach Out to Us</span>
+                            <span>Nous Attendons de Vos Nouvelles</span>
                         </p>
 						<div class="col-lg-8 offset-lg-2 animate animated scaleAppear" data-animation="scaleAppear">
 
@@ -765,15 +763,15 @@
                                     @csrf
 
 								    <p class="text-center color-darkgrey fs-20 fw-300">
-										<span>Fill out the form below with your inquiries or to book your surfing adventure. Our friendly team will respond promptly.
-										</span>
+										<span>Remplissez le formulaire ci-dessous pour poser vos questions ou réserver votre aventure de surf. Notre équipe vous répondra rapidement.
+                                        </span>
 									</p>
 
 										<div class="row">
 
 										<div class="col-sm-6">
 											<div class="form-group has-placeholder">
-												<label for="name">Full Name <span class="required">*</span></label>
+												<label for="name">Nom Complet <span class="required">*</span></label>
 												<i class="fa fa-user color-darkgrey"></i>
 												<input type="text" aria-required="true" size="30" value="{{ old('name') }}" name="name" class="form-control" placeholder="Name">
 											</div>
@@ -794,7 +792,7 @@
 
 										<div class="col-sm-12">
 											<div class="form-group has-placeholder">
-												<label for="phone">Phone<span class="required">*</span></label>
+												<label for="phone">Telephone<span class="required">*</span></label>
 												<i class="fa fa-phone color-darkgrey"></i>
 												<input type="text" aria-required="true" size="30" value="{{ old('email') }}" name="phone"  class="form-control" placeholder="Phone">
 											</div>
@@ -813,7 +811,7 @@
 										</div>
                                         <div class="col-sm-6">
 											<div class="form-group has-placeholder">
-												<label for="time">time<span class="required">*</span></label>
+												<label for="time">Temp<span class="required">*</span></label>
 												<i class="fa fa-thumb-tack color-darkgrey"></i>
 												<input type="time"  name="time" value="{{ old('time') }}"  class="form-control" placeholder="Time">
 											</div>
@@ -860,15 +858,15 @@
 					<div class="row">
 						<div class="col-lg-7">
 							<h3 class="special-heading text-center text-lg-left mb-2">
-								<span>Get 30% Off Your First Order</span>
+								<span>Obtenez 30 % de rabais sur votre première commande</span>
 							</h3>
 							<p class="text-center text-center text-lg-left fw-500 text-white fs-20">
-								<span>Join our newsletter to receive the latest <br>updates and promotions.</span>
+								<span>Inscrivez-vous à notre newsletter pour recevoir les dernières <br>mises à jour et promotions.</span>
 							</p>
 
 							<div class="fw-divider-space divider-30 divider-xl-50"></div>
 							<div class="widget widget_mailchimp">
-								<form class="signup" action="https://html.modernwebtemplates.com/">
+								<form class="signup" action="#">
 									<div class="mc4wp-form-fields">
 										<div class="mailchimp-1">
 											<span class="form-group">
@@ -892,7 +890,7 @@
 								<img src="{{ asset('images/logo.png') }}" alt="logo">
 
 								<p>
-									The estuary is the well-known kite spot in the lagoon. Two launches are possible.
+									L’estuaire est le spot de kite bien connu dans la lagune. Deux lancements sont possibles.
 								</p>
 								<p class="social-icons">
 									<a href="https://www.facebook.com/AquaVibes.surf" class="fa bg-icon rounded-icon fa-facebook" title="facebook"></a>
@@ -907,19 +905,19 @@
 								<h3>Userful Link</h3>
 								<ul class="menu">
 									<li class="menu-item">
-                                        <a href="#index">Home</a>
+                                        <a href="#index">Accueil</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="#about">About US</a>
+                                        <a href="#about">Sur Nous</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="#services">Services</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="#gallery">Gallery</a>
+                                        <a href="#gallery">Galerie</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="#price">Prices</a>
+                                        <a href="#price">Tarifs</a>
                                     </li>
                                     <li class="menu-item">
                                         <a href="#contact" >Contact</a>
